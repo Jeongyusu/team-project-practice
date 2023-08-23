@@ -5,5 +5,6 @@ public class GodBongjun {
     private String Bongjun;
 
     private String Bongjun2;
+    private String Bongjun3;
 
 }
