@@ -1,0 +1,20 @@
+package shop.mtcoding.team_proejct_practice.dto;
+/*
+ * 로그인 API ( 프론트엔드 개발자한테 이 문서를 전해주면 됨 )
+ * 1) 주소 , 전체는 URL => http://localhost:8080/login
+ * 2) method : POST (로그인은 select지만 , post로 한다)
+ * 3) 요청(request) body : username=값(String) & password=값(String) 
+ * 4) MIME타입 : x-www-form-urlencoded
+ * 5) 응답 : view를 응답함. index페이지
+ * Param은 쿼리스트링을 의미함 
+ */
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class LoginDTO {
+    private String username;
+    private String password;
+}
